@@ -53,7 +53,7 @@ interface Props{
                 {students.map((student, index) => (
                     <TableRow key={student.id}>
                      
-                        <TableCell>{student.fullname}</TableCell>
+                        <TableCell>{student.firstname}</TableCell>
                         <TableCell>{student.age}</TableCell>
                         <TableCell>{student.email}</TableCell>
                         <TableCell>{student.class}</TableCell>
